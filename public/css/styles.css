@@ -1,0 +1,82 @@
+body {
+  background-color: #303841;
+  color: #FFC107;
+}
+
+.smoothbackground {
+  border-radius: 33px;
+  background: #00adb5;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.spendinginputbackground {
+  width: 368px;
+  height: 600px;
+}
+
+label{
+  color: #eeeeee;
+}
+
+.Squezer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #eeeeee;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-control {
+    display: inline-block;
+    width: 30%;
+    height: calc(2em + .75rem + 2px);
+    padding: .375rem .75rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.budgetButton {
+  margin-bottom: 30px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 33px;
+}
+
+.list-group-item {
+    position: inherit;
+    display: block;
+    padding: .75rem 1.25rem;
+    font-size: 1.5rem;
+    background-color: #00adb5;
+    border: none;
+    color: #eeeeee;
+    font-family: 'Nunito', sans-serif;
+}
+
+.login-input {
+  width: 70%;
+}
+
+.align-right-button {
+  position: absolute;
+  right: 30px;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}

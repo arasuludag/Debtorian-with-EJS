@@ -1,0 +1,24 @@
+<%- include('header'); -%>
+
+<section class = "Squezer">
+  <div class="row">
+ <div class="col-lg-6 col-12 smoothbackground">
+   <h1>You have to select a budget.</h1>
+   <br>
+   <form action="/select" method="POST">
+   <% if(createdBudgets !== undefined){ createdBudgets.forEach(function(budgets, index){ %>
+     <button type="submit" class="btn btn-warning btn-lg budgetButton" name = "budgetButton" value="<%= budgets.id %>"> <%= budgets.name %> </button>
+   <% })}; %>
+   <br>
+     <div class="form-group">
+       <h3>You can create a new one,</h3>
+   <input type="text" class="form-control" placeholder="Ex: The House" name="budgetName">
+   <button type="submit" class="btn btn-light btn-lg" name = "SubmitBudget" value = "addNewBudget">Create New</button>
+   <h3>or enter the code you have taken from an existing one.</h3>
+   <input type="text" class="form-control" placeholder="Enter the Code" name="budgetCode">
+   <button type="submit" class="btn btn-dark btn-lg" name = "SubmitBudget" value = "addExistingBudget">Add Existing</button>
+</form>
+ </div>
+</section>
+
+<%- include('footer'); -%>
